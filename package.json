@@ -17,7 +17,5 @@
     "url": "https://github.com/louisriehl/battleship/issues"
   },
   "homepage": "https://github.com/louisriehl/battleship#readme",
-  "dependencies": {
-    "jquery": "^3.3.1"
-  }
+  "dependencies": {}
 }
