@@ -1,0 +1,11 @@
+.battle-grid {
+  text-align: center;
+  border: solid;
+}
+
+.battle-grid tr, .battle-grid td {
+  padding: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: green;
+}
