@@ -1,11 +1,16 @@
 $(document).ready(function() {
   $("#demo").html("Hello there!");
   $("#grid-size").click( () => {
-    makeGrid(8);
+    var gridSize = $(".grid-number").val();
+    makeGrid(gridSize);
   });
 });
 
 function makeGrid (size) {
+  if (size < 5 || size > 20 ||!size) {
+    alert('Woops, size needs to be greated or equal to 5!');
+    return;
+  }
   $('body').append('<table>');
   let table = $('table').addClass("battle-grid");
   for (let row = 0; row < size; row++) {
