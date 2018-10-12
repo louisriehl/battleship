@@ -17,5 +17,8 @@
     "url": "https://github.com/louisriehl/battleship/issues"
   },
   "homepage": "https://github.com/louisriehl/battleship#readme",
-  "dependencies": {}
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
 }
